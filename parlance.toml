@@ -1,0 +1,16 @@
+# Parlance Configuration File
+#
+# This is the default configuration for Parlance.
+# Copy this file and customize it to your needs.
+#
+# Note: Multicast address (239.255.255.250:6789) is part of the Parlance
+# protocol and cannot be changed. All peers must use the same address.
+
+[peer]
+# How often to broadcast presence announcements (in seconds)
+# Default: 5 seconds
+announce_interval_secs = 5
+
+# How long to wait before considering a peer offline (in seconds)
+# Default: 15 seconds
+timeout_secs = 15
